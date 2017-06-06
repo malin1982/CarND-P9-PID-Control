@@ -6,6 +6,12 @@
 
 using namespace std;
 double p[3] = {0.0, 0.0, 0.0};
+//p[0] represents Kp, in proportion to cte.
+//Kp leads to overshoot, the bigger Kp is, the faster it oscillates.
+
+//p[1] represetns Ki, dealing with 'systematica bias'.
+
+//p[2] represetns Kd, avoid overshhot.
 
 // twiddle as described in Sebastian's
 // AI for Robotics
